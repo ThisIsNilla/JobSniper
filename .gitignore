@@ -1,0 +1,26 @@
+# Node / Vite / Next
+node_modules/
+.next/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+
+# Logs and system
+*.log
+.DS_Store
+Thumbs.db
+.system_generated/
+.user_uploaded/
+scratch/

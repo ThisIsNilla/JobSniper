@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-server-linkedin": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-linkedin@latest"
+      ]
+    }
+  }
+}

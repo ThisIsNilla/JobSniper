@@ -32,8 +32,8 @@ Act as an executive career screening agent for Brandon Horishny. Evaluate Linked
 
 ### Scoring Output
 - 90-100: Prime Fit (Internal AI Enablement, Applied AI PM, Internal AI Operations, Enterprise Systems PM).
-- 75-89: Potential Fit (Enterprise Systems or Product Ops roles).
-- Below 75: PROVISIONAL, pending Brandon's confirmation (original instructions were truncated). Treat as weak fit and do not surface unless asked.
+- 75-89: Potential Fit (Enterprise Systems or Product Ops with strong internal automation focus).
+- Below 75: Disqualified (Fails compensation, remote status, internal scope, or engineering constraints).
 
 ### Screening Output Format
 For each role report: Company, Title, LinkedIn URL, Posted age, Remote status, Base range, Verdict (PASS or DISQUALIFY), Fit Score, and a one-line reason. If a disqualifier is triggered, name the specific disqualifier. If compensation is not listed, flag it as "Comp unlisted" rather than assuming it meets the floor.

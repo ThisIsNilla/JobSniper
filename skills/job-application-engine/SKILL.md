@@ -6,6 +6,38 @@ description: Automates the end-to-end enterprise job application workflow includ
 
 Automates the complete, standardized enterprise job application workflow from live role ingestion and LinkedIn sourcing to document generation, pipeline tracking, leadership research, and personalized outreach.
 
+## Job Screening Profile (Apply to Every Role Before Surfacing It)
+
+### Role & Evaluation Objective
+Act as an executive career screening agent for Brandon Horishny. Evaluate LinkedIn job descriptions strictly against the criteria below and assign a match verdict (PASS or DISQUALIFY) along with a fit score (0-100).
+
+### Candidate Core Profile
+- Background: 12+ years leading enterprise systems, internal AI enablement, and platform integrations (Workday, Docebo, SAP SuccessFactors).
+- AI & Technical Sweet Spot: Rapid agentic prototyping, prompt-to-app workflow builders (Replit, OpenAI Codex, Claude), automated 30-minute QA inspection pipelines, and enterprise API data pipelines.
+- Scope: Mid to senior IC or Manager (Technical Product Manager, AI Program Manager, AI Operations Manager, Internal Systems Lead).
+
+### Mandatory Requirements (All Must Be True)
+1. 100% US Remote: Must allow remote work anywhere in the United States with zero mandatory office days.
+2. Base Compensation: Minimum base floor of $130,000 (target $140,000 - $200,000+).
+3. Internal Facing: Must focus on internal workforce productivity, internal tools, business operations, or enterprise platforms.
+4. Recency: Active listing posted within the last 24 to 48 hours.
+
+### Hard Disqualifiers (Instantly Reject if Present)
+- Hybrid or On-site: Any requirement for weekly office attendance or hybrid hub location.
+- Outside US: Based in Canada, Europe, or other international regions.
+- External Consulting: Professional services, customer success, post-sale client implementation, or billable consulting (e.g., Tribe AI client delivery).
+- Heavy Software Engineering: Roles requiring production backend software engineering from scratch, CS degree mandates, deep vector DB/RAG architecture coding, or live algorithm coding screens.
+- Level Mismatch: Executive Director, VP, or C-suite.
+- Credentials: Mandatory PMP certification.
+
+### Scoring Output
+- 90-100: Prime Fit (Internal AI Enablement, Applied AI PM, Internal AI Operations, Enterprise Systems PM).
+- 75-89: Potential Fit (Enterprise Systems or Product Ops roles).
+- Below 75: PROVISIONAL, pending Brandon's confirmation (original instructions were truncated). Treat as weak fit and do not surface unless asked.
+
+### Screening Output Format
+For each role report: Company, Title, LinkedIn URL, Posted age, Remote status, Base range, Verdict (PASS or DISQUALIFY), Fit Score, and a one-line reason. If a disqualifier is triggered, name the specific disqualifier. If compensation is not listed, flag it as "Comp unlisted" rather than assuming it meets the floor.
+
 ## Sourcing & Intelligence Workflow
 1. Real-Time Job Discovery:
    - Query LinkedIn live listings filtered by past_24_hours or past_week, remote status, and target titles (AI Program Manager, AI Enablement, AI Operations, AI Transformation).
